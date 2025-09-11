@@ -1,0 +1,80 @@
+p{
+    text-align: center;
+}
+
+#jour-nuit{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 100px;
+    border-radius: 50%;
+    font-family: 'Trebuchet MS';
+    background-color: lightgray;
+}
+
+#fr-en{
+    position: absolute;
+    left: 60px;
+    top: 25px;
+    width: 100px;
+    border-radius: 50%;
+    font-family: 'Trebuchet MS';
+    background-color: lightgray;
+}
+
+.mtg{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+footer{
+    background-color: gray;
+    bottom: 0px;
+    font-size: small;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.titre-paragraphe{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-box{
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 75%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.liste{
+    text-align: left;
+    display: inline-block;
+}
+.card-type{
+    display: flex;
+}
+
+.card{
+    width: 200px;
+    margin: 20px;
+}
+
+.card-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Times New Roman';
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border: 10px ridge brown;
+    background-color: green;
+    color:white;
+    padding: 25px;
+    margin: 25px 25px 25px 25px;
+}
+
+.bar{
+    border-left: thick solid black;
+    height: 400px;
+}
+
+.forms form{
+    flex: 1 0 45%;
+}
+
+.desc{
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+}
+
+label,input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:not([type="checkbox"]){
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: 250px;
+    height: 125px;
+    margin: 10px;
+    font-size: xx-large;
+    border-radius: 75% 25% 75% 25%;
+    font-family: 'Trebuchet MS';
+    text-shadow: 1px 1px red;
+    color:blue;
+    background-color: orange;
+}
